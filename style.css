@@ -8,11 +8,22 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #efefef;
 }
 
 hr:not([size]) {
     height: 0.1rem;
+}
+
+.menu-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='square' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.nav-link {
+    font-family: lato;
+    color: var(--csdark);
+    font-size: 0.8rem;
+    font-weight: bolder;
 }
 
 .title-catchphrase {
@@ -63,12 +74,22 @@ hr:not([size]) {
 
 .card-main-text {
     color: var(--cslight);
+    font-size: 0.7rem;
+    font-weight: 600;
 }
 
 .join-button,
 .join-button:hover {
     background-color: var(--csred);
     border-color: var(--csred);
+}
+
+.whole-program-link {
+    color: var(--cslight);
+    font-family: lato;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 4rem 0 4rem 0;
 }
 
 .main-header-dark {
@@ -113,4 +134,10 @@ hr:not([size]) {
     transform: rotate(90deg);
     height: 0.8rem;
     width: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .main-program-row {
+        width: 80%;
+    }
 }
