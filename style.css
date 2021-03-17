@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+:root {
+    --cslight: #d3d3d3;
+    --csdark: #272a31;
+    --csred: #ec5242;
+}
+
+body {
+    background-color: #eee;
+}
+
+hr:not([size]) {
+    height: 0.1rem;
+}
+
+.title-catchphrase {
+    color: var(--csred);
+    font-family: Lato;
+}
+
+.title-header {
+    color: var(--csred);
+    font-family: cocogoose;
+    font-size: 2rem;
+}
+
+.date-header {
+    font-family: cocogoose;
+    color: var(--csdark);
+}
+
+.p-home-header {
+    font-family: Lato;
+    color: var(--csdark);
+}
+
+.main-program-header {
+    color: var(--cslight);
+    font-family: lato;
+}
+
+.header-underline {
+    width: 4rem;
+    background-color: var(--csred);
+    opacity: 100%;
+}
+
+.bootstrap-card {
+    background-color: rgba(150, 150, 150, 0.3);
+}
+
+.card-main-image {
+    width: 5rem;
+    height: 5rem;
+}
+
+.card-main-title {
+    color: var(--csred);
+    font-family: cocogoose;
+}
+
+.card-main-text {
+    color: var(--cslight);
+}
+
+.join-button,
+.join-button:hover {
+    background-color: var(--csred);
+    border-color: var(--csred);
+}
+
+.main-header-dark {
+    color: var(--csdark);
+    font-family: lato;
+}
+
+.card-speakers-title {
+    color: var(--csdark);
+    font-family: cocogoose;
+}
+
+.card-speakers-subtitle {
+    color: var(--csred);
+    font-size: 0.9rem;
+}
+
+.card-speakers-underline {
+    color: var(--csdark);
+    width: 2rem;
+}
+
+.card-speakers-text {
+    color: var(--csdark);
+    font-family: lato;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.card-speakers-image {
+    height: 10rem;
+}
+
+.more-button {
+    border: 2px solid var(--cslight);
+    font-family: lato;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.down-arrow {
+    transform: rotate(90deg);
+    height: 0.8rem;
+    width: 0.8rem;
+}
