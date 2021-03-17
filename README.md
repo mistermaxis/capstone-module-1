@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](live demo url goes here)
+[Live Demo Link](https://mistermaxis.github.io/capstone-module-1/)
 
 
 ## Getting Started
