@@ -127,23 +127,23 @@ hr:not([size]) {
 
 .card-speakers-subtitle {
   color: var(--csred);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 
 .card-speakers-underline {
   color: var(--csdark);
-  width: 2rem;
+  width: 1rem;
 }
 
 .card-speakers-text {
   color: var(--csdark);
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .card-speakers-image {
-  height: 10rem;
+  height: 7rem;
 }
 
 .more-button {
