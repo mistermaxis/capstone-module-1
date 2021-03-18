@@ -207,6 +207,7 @@ hr:not([size]) {
 }
 
 /*        MEDIA QUERIES       */
+
 /*        DESKTOP       */
 @media screen and (min-width: 768px) {
   .title-catchphrase {
@@ -215,7 +216,7 @@ hr:not([size]) {
 
   .title-header {
     font-size: 4rem;
-    max-width: 55rem;;
+    max-width: 55rem;
   }
 
   .main-program-row {
