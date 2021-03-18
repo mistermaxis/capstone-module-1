@@ -13,8 +13,6 @@
     url('/assets/fonts/COCOGOOSE.ttf.svg') format('svg'),
     url('assets/fonts/COCOGOOSE.ttf.eot'),
     url('/assets/fonts/COCOGOOSE.ttf.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 :root {
@@ -129,7 +127,7 @@ hr:not([size]) {
 
 .card-speakers-subtitle {
   color: var(--csred);
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 
 .card-speakers-underline {
@@ -141,7 +139,7 @@ hr:not([size]) {
   color: var(--csdark);
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .card-speakers-image {
