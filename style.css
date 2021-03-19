@@ -377,6 +377,7 @@ hr:not([size]) {
   .creative-commons-brand {
     color: var(--cslight);
   }
+
   .dark-background {
     background-color: var(--csdark);
   }
