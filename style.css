@@ -226,7 +226,8 @@ hr:not([size]) {
 }
 
 /*        FOOTER        */
-.creative-commons-brand {
+.creative-commons-brand-home,
+.creative-commons-brand-about {
   color: #000;
   font-family: Commons, Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
@@ -239,8 +240,10 @@ hr:not([size]) {
   padding-bottom: 4rem;
 }
 
-.creative-commons-header,
-.creative-commons-text,
+.creative-commons-header-home,
+.creative-commons-text-home,
+.creative-commons-header-about,
+.creative-commons-text-about,
 .gsl-p-about-text {
   color: var(--csdark);
   font-family: Lato, Arial, Helvetica, sans-serif;
@@ -248,10 +251,14 @@ hr:not([size]) {
   font-weight: bolder;
 }
 
-.creative-commons-logo {
-  content: url('assets/logos/creative-commons-logo.svg');
+.creative-commons-logo-home,
+.creative-commons-logo-about {
   height: 1.75rem;
   margin: 0.05rem;
+}
+
+.creative-commons-logo-about {
+  content: url("assets/logos/creative-commons-logo.svg");
 }
 
 /*        ABOUT       */
@@ -365,12 +372,12 @@ hr:not([size]) {
     width: 75%;
   }
 
-  .creative-commons-logo {
-    content: url('assets/logos/creative-commons-logo-white.svg');
+  .creative-commons-logo-about {
+    content: url('assets/logos/creative-commons-logo-white.svg') !important;
   }
 
-  .creative-commons-header,
-  .creative-commons-text {
+  .creative-commons-header-about,
+  .creative-commons-text-about {
     color: var(--cslight);
   }
 
