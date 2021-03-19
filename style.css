@@ -42,6 +42,10 @@ hr:not([size]) {
   font-weight: bolder;
 }
 
+.nav-link.active {
+  color: var(--csred) !important;
+}
+
 /*        HEADER        */
 .title-catchphrase {
   color: var(--csred);
@@ -49,7 +53,8 @@ hr:not([size]) {
   font-weight: bold;
 }
 
-.title-header {
+.title-header,
+.title-header-about {
   color: var(--csred);
   font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
 }
@@ -59,10 +64,30 @@ hr:not([size]) {
   font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
 }
 
-.p-home-header {
+.p-home-header,
+.p-about-header {
   color: var(--csdark);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.p-about-header {
+  width: 90%;
+}
+
+.p-about-text {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+}
+
+.cc-about-more-info {
+  color: var(--csdark);
+}
+
+.cc-about-link {
+  color: #000;
 }
 
 /*        MAIN PROGRAM        */
@@ -170,8 +195,14 @@ hr:not([size]) {
   font-size: var(--header-font-size);
 }
 
-.strsnp-logo {
+.footer-logo {
   opacity: 0.7;
+}
+
+.partner-group {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
 .logo-mozilla {
@@ -202,8 +233,15 @@ hr:not([size]) {
   line-height: 0.75rem;
 }
 
+.footer-section {
+  width: 85%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .creative-commons-header,
-.creative-commons-text {
+.creative-commons-text,
+.gsl-p-about-text {
   color: var(--csdark);
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
@@ -211,14 +249,64 @@ hr:not([size]) {
 }
 
 .creative-commons-logo {
+  content: url('assets/logos/creative-commons-logo.svg');
   height: 1.75rem;
   margin: 0.05rem;
+}
+
+/*        ABOUT       */
+
+/*        GLOBAL SUMMIT LOGO        */
+.gsl-about-header {
+  color: var(--csdark);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.ccs-logo {
+  width: 60%;
+}
+
+.css-logo-container {
+  border-color: #ccc;
+  width: 90%;
+}
+
+.past-ccs {
+  color: #fff;
+  font-family: Commons, Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 90%;
+}
+
+.ccs-bsas {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.5)), url('assets/images/ccs-bsas.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+}
+
+.ccs-warsaw {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.5)), url('assets/images/ccs-warsaw.jpg');
+  background-size: cover;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+}
+
+.gs-text {
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 /*        MEDIA QUERIES       */
 
 /*        DESKTOP       */
 @media screen and (min-width: 768px) {
+  .menu-section {
+    width: 75%;
+  }
+
   .title-catchphrase {
     font-size: 2.5rem;
   }
@@ -228,31 +316,68 @@ hr:not([size]) {
     max-width: 55rem;
   }
 
+  .title-header-about {
+    max-width: 37.5rem;
+  }
+
   .main-program-row {
-    width: 80%;
+    width: 75%;
   }
 
   .p-home-header {
     width: 60%;
   }
 
+  .p-about-header {
+    max-width: 45rem;
+  }
+
   .main-banner {
-    width: 80%;
+    width: 75%;
   }
 
   .speakers-row {
-    width: 80%;
+    width: 75%;
   }
 
   .partner-group {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 80%;
+    width: 75%;
   }
 
   .footer-section {
-    width: 80%;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    width: 75%;
+  }
+
+  .css-logo-container {
+    width: 75%;
+  }
+
+  .ccs-logo {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gsl-div {
+    max-width: 45rem;
+  }
+
+  .past-ccs {
+    width: 75%;
+  }
+
+  .creative-commons-logo {
+    content: url('assets/logos/creative-commons-logo-white.svg');
+  }
+
+  .creative-commons-header,
+  .creative-commons-text {
+    color: var(--cslight);
+  }
+
+  .creative-commons-brand {
+    color: var(--cslight);
+  }
+  .dark-background {
+    background-color: var(--csdark);
   }
 }
