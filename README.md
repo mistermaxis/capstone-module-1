@@ -2,11 +2,9 @@
 
 # Capstone Module 1 - Conference Website.
 
-> Template repository with linter setup for HTML/CSS.
+> The project for the fourth week in the Microverse Module 1.
 
 # Screenshot goes here
-
-Additional description about the project and its features.
 
 ## Built With
 
