@@ -279,6 +279,7 @@ hr:not([size]) {
   width: 90%;
 }
 
+/*        PAST GLOGBAL SUMMITS        */
 .past-ccs {
   color: #fff;
   font-family: Commons, Arial, Helvetica, sans-serif;
@@ -304,6 +305,79 @@ hr:not([size]) {
 .gs-text {
   font-size: 0.75rem;
   margin: 0;
+}
+
+/*        TICKETS PAGE        */
+
+/*        SELECT TICKETS        */
+.step-text {
+  font-size: 0.8rem;
+  border-color: #cacaca;
+  border-width: 0.07rem;
+  border-style: solid;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.step-red-text {
+  color: var(--csred);
+  text-transform: uppercase;
+}
+
+.step-red-text::before {
+  content: "";
+  position: absolute;
+  left: 1.6rem;
+  top: 0.95rem;
+  width: 0.35rem;
+  height: 0.35rem;
+  background-color: var(--csred);
+  transform: rotate(45deg);
+}
+
+.tickets-section {
+  display: -ms-grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  color: var(--csdark);
+  font-size: 0.8rem;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0.4rem;
+  border-image: repeating-linear-gradient(135deg, #a00 0%, #a00 0.75%, #ddd 0.75%, #ddd 1.5%, #00a 1.5%, #00a 2.25%, #ddd 2.25%, #ddd 3%) 6 stretch;
+}
+
+.col-style {
+  padding: 1rem;
+  border-color: #cacaca !important;
+}
+
+.col-small {
+  -ms-grid-column: span 1;
+  grid-column: span 1;
+}
+
+.col-normal {
+  -ms-grid-column: span 2;
+  grid-column: span 2;
+}
+
+.col-large {
+  -ms-grid-column: span 3;
+  grid-column: span 3;
+}
+
+.col-double {
+  -ms-grid-column: span 4;
+  grid-column: span 4;
+}
+
+.price-text {
+  color: var(--csred);
+  font-size: 1rem;
 }
 
 /*        MEDIA QUERIES       */
