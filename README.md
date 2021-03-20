@@ -5,7 +5,7 @@
 > The project for the fourth week in the Microverse Module 1.
 
 # Screenshot goes here
-[](assets/images/site-screenshot.png)
+[](https://github.com/mistermaxis/capstone-module-1/blob/dev/assets/images/site-screenshot.png)
 
 ## Built With
 
