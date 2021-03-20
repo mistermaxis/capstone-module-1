@@ -336,7 +336,6 @@ hr:not([size]) {
 }
 
 .tickets-section {
-  display: -ms-grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
