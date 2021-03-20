@@ -10,22 +10,34 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
-          <div class="menu-section container-fluid align-items-center">
-            <a class="navbar-brand d-none d-md-block" title="Brand Logo Home Link" accesskey="c" href="index.html"><img height="36" src="assets/images/ccs-logo-source.png" alt=""></a>
+        <nav class="navbar navbar-expand-md flex-column navbar-light pt-md-0 pb-md-0 bg-light shadow-sm">
+          <div class="top-menu container-fluid d-none d-md-flex justify-content-center align-items-center py-1">
+            <div class="top-menu-items d-md-flex justify-content-end">
+              <i class="fab fa-facebook-f top-menu-icon me-md-3"></i>
+              <i class="fab fa-twitter top-menu-icon me-md-3"></i>
+              <a class ="top-menu-link mx-md-3" href="#">Logout</a>
+              <a class ="top-menu-link me-md-3" href="#">My Account</a>
+              <a class ="top-menu-link me-md-3" href="#">Spanish</a>
+            </div>
+          </div>
+          <div class="menu-section container-fluid align-items-center py-1">
+            <a class="navbar-brand py-md-2 d-none d-md-block" title="Brand Logo Home Link" accesskey="c" href="index.html"><img height="36" src="assets/images/ccs-logo-source.png" alt=""></a>
             <button class="navbar-toggler d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon menu-icon"></span>
             </button>
             <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item d-md-flex align-items-center">
                   <a class="nav-link active" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-md-flex align-items-center">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-md-flex align-items-center">
                   <a class="nav-link" href="tickets.html">Tickets</a>
+                </li>
+                <li class="cc-campaign d-none d-md-block nav-item ms-md-5">
+                  <a class="nav-link cc-link" href="#">CC Campaign</a>
                 </li>
               </ul>
             </div>

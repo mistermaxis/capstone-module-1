@@ -336,9 +336,8 @@ hr:not([size]) {
 }
 
 .tickets-section {
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-family: Lato, Arial, Helvetica, sans-serif;
   color: var(--csdark);
   font-size: 0.8rem;
@@ -351,6 +350,9 @@ hr:not([size]) {
 
 .col-style {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-color: #cacaca !important;
 }
 
@@ -359,18 +361,17 @@ hr:not([size]) {
   grid-column: span 1;
 }
 
-.col-normal {
-  -ms-grid-column: span 2;
+.col-normal,
+.col-large {
+  -ms-grid-column: span 4;
+  grid-column: span 4;
+}
+
+.mobile-col-normal {
   grid-column: span 2;
 }
 
-.col-large {
-  -ms-grid-column: span 3;
-  grid-column: span 3;
-}
-
 .col-double {
-  -ms-grid-column: span 4;
   grid-column: span 4;
 }
 
@@ -383,8 +384,44 @@ hr:not([size]) {
 
 /*        DESKTOP       */
 @media screen and (min-width: 768px) {
+  .top-menu {
+    background-color: var(--csdark);
+  }
+
+  .top-menu-items {
+    width: 75%;
+  }
+
+  .top-menu-icon,
+  .top-menu-link {
+    color: var(--cslight);
+  }
+
+  .top-menu-icon:hover {
+    color: #fff;
+  }
+
+  .top-menu-link {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+
+  .top-menu-link:hover {
+    color: var(--csred);
+  }
+
   .menu-section {
     width: 75%;
+  }
+
+  .cc-campaign {
+    border: 0.25rem solid var(--csred);
+  }
+
+  .cc-link {
+    color: var(--csred) !important;
   }
 
   .title-catchphrase {
@@ -460,5 +497,41 @@ hr:not([size]) {
 
   .dark-background {
     background-color: var(--csdark);
+  }
+
+  .tickets-section {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .col-normal {
+    grid-column: span 2;
+  }
+
+  .col-large {
+    -ms-grid-column: span 3;
+    grid-column: span 3;
+  }
+
+  .col-double {
+    -ms-grid-column: span 4;
+    grid-column: span 4;
+  }
+
+  .g-order-1 {
+    order: 1;
+  }
+
+  .g-order-2 {
+    order: 2;
+  }
+
+  .g-order-3 {
+    order: 3;
+  }
+
+  .g-order-4 {
+    order: 4;
   }
 }
