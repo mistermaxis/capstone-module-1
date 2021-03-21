@@ -8,7 +8,9 @@
 
 ![](assets/images/site-screenshot.png)
 
-Additional description about the project and its features.
+#### A website project based on the
+![CC Global Summit 2015 model](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+![by Cindy Shin](https://www.behance.net/adagio07)
 
 ## Built With
 
@@ -17,8 +19,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Source Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-[Live Demo Link](https://mistermaxis.github.io/capstone-module-1/)
+![Live Demo Link](https://mistermaxis.github.io/capstone-module-1/)
 
 ## Getting Started
 
