@@ -8,9 +8,7 @@
 
 ![](assets/images/site-screenshot.png)
 
-#### A website project based on the
-![CC Global Summit 2015 model](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-![by Cindy Shin](https://www.behance.net/adagio07)
+#### A website project based on the [CC Global Summit 2015 model](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)[ by Cindy Shin](https://www.behance.net/adagio07).
 
 ## Built With
 
