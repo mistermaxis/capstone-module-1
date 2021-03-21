@@ -6,6 +6,8 @@
 
 # Screenshot goes here
 
+![](assets/images/site-screenshot.png)
+
 Additional description about the project and its features.
 
 ## Built With
@@ -18,12 +20,7 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://mistermaxis.github.io/capstone-module-1/)
 
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -39,16 +36,6 @@ To get a local copy up and running follow these simple example steps.
 `npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator`
 #### Run styleint (with pure css):
 `npx stylelint "**/*.{css,scss}"`
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
