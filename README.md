@@ -6,6 +6,10 @@
 
 # Screenshot goes here
 
+![](assets/images/site-screenshot.png)
+
+#### A website project based on the [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) model by [Cindy Shin](https://www.behance.net/adagio07).
+
 ## Built With
 
 - HTML, CSS
@@ -13,15 +17,9 @@
 
 ## Live Demo
 
-[Source Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 [Live Demo Link](https://mistermaxis.github.io/capstone-module-1/)
 
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -38,16 +36,6 @@ To get a local copy up and running follow these simple example steps.
 #### Run styleint (with pure css):
 `npx stylelint "**/*.{css,scss}"`
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Maximiliano Diaz**
@@ -59,17 +47,11 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/mistermaxis/capstone-module-1/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

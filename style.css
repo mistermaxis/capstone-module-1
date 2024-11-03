@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/*        FONTS       */
+@font-face {
+  font-family: Commons;
+  src: url('assets/fonts/creative-commons.otf');
+}
+
+@font-face {
+  font-family: 'COCOGOOSE';
+  src:
+    url('assets/fonts/COCOGOOSE.ttf.woff') format('woff'),
+    url('/assets/fonts/COCOGOOSE.ttf.svg') format('svg'),
+    url('assets/fonts/COCOGOOSE.ttf.eot'),
+    url('/assets/fonts/COCOGOOSE.ttf.eot?#iefix') format('embedded-opentype');
+}
+
+:root {
+  --cslight: #d3d3d3;
+  --csdark: #272a31;
+  --csred: #ec5242;
+  --header-font-size: 1.25rem;
+}
+
+body {
+  background-color: #efefef;
+}
+
+hr:not([size]) {
+  height: 0.05rem;
+}
+
+/*        NAV        */
+.menu-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='square' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.nav-link {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  color: var(--csdark);
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.nav-link.active {
+  color: var(--csred) !important;
+}
+
+/*        HEADER        */
+.title-catchphrase {
+  color: var(--csred);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.title-header,
+.title-header-about {
+  color: var(--csred);
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
+}
+
+.date-header {
+  color: var(--csdark);
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
+}
+
+.p-home-header,
+.p-about-header {
+  color: var(--csdark);
+  font-size: 0.7rem;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.p-about-header {
+  width: 90%;
+}
+
+.p-about-text {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+}
+
+.cc-about-more-info {
+  color: var(--csdark);
+}
+
+.cc-about-link {
+  color: #000;
+}
+
+/*        MAIN PROGRAM        */
+.main-program-header {
+  color: var(--cslight);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: var(--header-font-size);
+}
+
+.header-underline {
+  width: 2rem;
+  background-color: var(--csred);
+  opacity: 100%;
+}
+
+.bootstrap-card {
+  background-color: rgba(150, 150, 150, 0.3);
+}
+
+.card-main-image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.card-main-title {
+  color: var(--csred);
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.card-main-text {
+  color: var(--cslight);
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.join-button,
+.join-button:hover {
+  background-color: var(--csred);
+  border-color: var(--csred);
+}
+
+.whole-program-link {
+  color: var(--cslight);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 4rem 0 4rem 0;
+}
+
+/*      FEATURED SPEAKERS       */
+.main-header-dark {
+  color: var(--csdark);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: var(--header-font-size);
+}
+
+.card-speakers-title {
+  color: var(--csdark);
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
+}
+
+.card-speakers-subtitle {
+  color: var(--csred);
+  font-size: 0.7rem;
+}
+
+.card-speakers-underline {
+  color: var(--csdark);
+  width: 1rem;
+}
+
+.card-speakers-text {
+  color: var(--csdark);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 0.65rem;
+}
+
+.card-speakers-image {
+  height: 7rem;
+}
+
+.more-button {
+  border: 2px solid var(--cslight);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+.down-arrow {
+  transform: rotate(90deg);
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+/*        PARTNER       */
+.partner-section {
+  background-color: var(--csdark);
+}
+
+.main-partner-header {
+  color: #888;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: var(--header-font-size);
+}
+
+.footer-logo {
+  opacity: 0.7;
+}
+
+.partner-group {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.logo-mozilla {
+  height: 1.55rem;
+  margin-top: 0.1rem;
+  align-self: start;
+}
+
+.logo-google {
+  height: 1.65rem;
+  margin: 0.25rem 0 0.25rem 0;
+}
+
+.partner-logo-common {
+  height: 1.2rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.logo-airbnb {
+  height: 2.15rem;
+}
+
+/*        FOOTER        */
+.creative-commons-brand-home,
+.creative-commons-brand-about {
+  color: #000;
+  font-family: Commons, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 0.75rem;
+}
+
+.footer-section {
+  width: 85%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.creative-commons-header-home,
+.creative-commons-text-home,
+.creative-commons-header-about,
+.creative-commons-text-about,
+.gsl-p-about-text {
+  color: var(--csdark);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: bolder;
+}
+
+.creative-commons-logo-home,
+.creative-commons-logo-about {
+  height: 1.75rem;
+  margin: 0.05rem;
+}
+
+/*        ABOUT       */
+
+/*        GLOBAL SUMMIT LOGO        */
+.gsl-about-header {
+  color: var(--csdark);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.ccs-logo {
+  width: 60%;
+}
+
+.css-logo-container {
+  border-color: #ccc;
+  width: 90%;
+}
+
+/*        PAST GLOGBAL SUMMITS        */
+.past-ccs {
+  color: #fff;
+  font-family: Commons, Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 90%;
+}
+
+.ccs-bsas {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.5)), url('assets/images/ccs-bsas.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+}
+
+.ccs-warsaw {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.5)), url('assets/images/ccs-warsaw.jpg');
+  background-size: cover;
+  padding: 5rem 0 5rem 0;
+  width: 100%;
+}
+
+.gs-text {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+/*        TICKETS PAGE        */
+
+/*        SELECT TICKETS        */
+.step-text {
+  font-size: 0.8rem;
+  border-color: #cacaca;
+  border-width: 0.07rem;
+  border-style: solid;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.step-red-text {
+  color: var(--csred);
+  text-transform: uppercase;
+}
+
+.step-red-text::before {
+  content: "";
+  position: absolute;
+  left: 1.6rem;
+  top: 0.95rem;
+  width: 0.35rem;
+  height: 0.35rem;
+  background-color: var(--csred);
+  transform: rotate(45deg);
+}
+
+.tickets-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  color: var(--csdark);
+  font-size: 0.8rem;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0.4rem;
+  border-image: repeating-linear-gradient(135deg, #a00 0%, #a00 0.75%, #ddd 0.75%, #ddd 1.5%, #00a 1.5%, #00a 2.25%, #ddd 2.25%, #ddd 3%) 6 stretch;
+}
+
+.col-style {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #cacaca !important;
+}
+
+.col-small {
+  -ms-grid-column: span 1;
+  grid-column: span 1;
+}
+
+.col-normal,
+.col-large {
+  -ms-grid-column: span 4;
+  grid-column: span 4;
+}
+
+.mobile-col-normal {
+  grid-column: span 2;
+}
+
+.col-double {
+  grid-column: span 4;
+}
+
+.price-text {
+  color: var(--csred);
+  font-size: 1rem;
+}
+
+/*        MEDIA QUERIES       */
+
+/*        DESKTOP       */
+@media screen and (min-width: 768px) {
+  .top-menu {
+    background-color: var(--csdark);
+  }
+
+  .top-menu-items {
+    width: 75%;
+  }
+
+  .top-menu-icon,
+  .top-menu-link {
+    color: var(--cslight);
+  }
+
+  .top-menu-icon:hover {
+    color: #fff;
+  }
+
+  .top-menu-link {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+
+  .top-menu-link:hover {
+    color: var(--csred);
+  }
+
+  .menu-section {
+    width: 75%;
+  }
+
+  .cc-campaign {
+    border: 0.25rem solid var(--csred);
+  }
+
+  .cc-link {
+    color: var(--csred) !important;
+  }
+
+  .title-catchphrase {
+    font-size: 2.5rem;
+  }
+
+  .title-header {
+    font-size: 3rem;
+    max-width: 55rem;
+  }
+
+  .title-header-about {
+    max-width: 37.5rem;
+  }
+
+  .main-program-row {
+    width: 75%;
+  }
+
+  .p-home-header {
+    width: 60%;
+  }
+
+  .p-about-header {
+    max-width: 45rem;
+  }
+
+  .main-banner {
+    width: 75%;
+  }
+
+  .speakers-row {
+    width: 75%;
+  }
+
+  .partner-group {
+    width: 75%;
+  }
+
+  .footer-section {
+    width: 75%;
+  }
+
+  .css-logo-container {
+    width: 75%;
+  }
+
+  .ccs-logo {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gsl-div {
+    max-width: 45rem;
+  }
+
+  .past-ccs {
+    width: 75%;
+  }
+
+  .creative-commons-header-about,
+  .creative-commons-text-about {
+    color: var(--cslight);
+  }
+
+  .creative-commons-brand-about {
+    color: var(--cslight);
+  }
+
+  .dark-background {
+    background-color: var(--csdark);
+  }
+
+  .tickets-section {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .col-normal {
+    grid-column: span 2;
+  }
+
+  .col-large {
+    -ms-grid-column: span 3;
+    grid-column: span 3;
+  }
+
+  .col-double {
+    -ms-grid-column: span 4;
+    grid-column: span 4;
+  }
+
+  .g-order-1 {
+    order: 1;
+  }
+
+  .g-order-2 {
+    order: 2;
+  }
+
+  .g-order-3 {
+    order: 3;
+  }
+
+  .g-order-4 {
+    order: 4;
+  }
+}
